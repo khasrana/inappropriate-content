@@ -4,8 +4,8 @@ Incomplete API for inappropriate-content project by NeotiDev
 
 const fs = require("fs");
 const path = require("path");
-const websites = path.resolve(__dirname, "../websites");
-const words = path.resolve(__dirname, "../words");
+const websites = require("../dist/websites");
+const words = require("../dist/words");
 
 if (!fs.existsSync(path.resolve(__dirname, "./dist")))
   fs.mkdirSync(path.resolve(__dirname, "./dist"));
@@ -14,7 +14,7 @@ if (!fs.existsSync(path.resolve(__dirname, "./dist/words")))
   fs.mkdirSync(path.resolve(__dirname, "./dist/words"));
 
 fs.copyFileSync(
-  path.resolve(__dirname, "./database/words.json"),
+  path.resolve(__dirname, "../dist/words.json"),
   path.resolve(__dirname, "./dist/words.json")
 );
 
@@ -29,7 +29,7 @@ if (!fs.existsSync(path.resolve(__dirname, "./dist/websites")))
   fs.mkdirSync(path.resolve(__dirname, "./dist/websites"));
 
 fs.copyFileSync(
-  path.resolve(__dirname, "./database/websites.json"),
+  path.resolve(__dirname, "../dist/websites.json"),
   path.resolve(__dirname, "./dist/websites.json")
 );
 
