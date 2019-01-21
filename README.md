@@ -6,6 +6,11 @@ I (OrdinaryJellyfish) hadn't been able to find a useful open filter anywhere tha
 
 These lists are free to use with no credit required. Feel free to open a PR adding anything you think may be missing, or if you find a website or word that's not actually inappropriate, you can open a PR to remove that too.
 
+## Showcase
+A small list of biggest projects using inappropriate-content API:
+
+1 - [Mardatonne](https://mardatonne.tk) (A Discord bot)
+
 ## Adding to the list
 
 To add a word to the list, simply create a file inside the words called the name of the word (for example, `words/foo` for the word `foo`). You can also add phrases, to do so just replace the spaces with underscores.  
