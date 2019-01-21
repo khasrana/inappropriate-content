@@ -1,5 +1,5 @@
 /*
-Incomplete API for inappropriate-content project by NeotiDev
+Official API for inappropriate-content project by NeotiDev
 */
 
 const fs = require("fs");
