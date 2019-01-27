@@ -55,6 +55,8 @@ Words will be sorted in an array as strings.
   - Any website that involves gambling.
 - `social`
   - Social networks that aren't necessarily inappropriate, but may need to be blocked in certain cases.
+- `harmful`
+  - Any website that attempts to force users to download content that can be harmful for any device.
 - `scam`
   - Any website that attempts to scam the visitor in some way.
 - `illegal`
