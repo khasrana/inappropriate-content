@@ -2,7 +2,7 @@
 
 List of inappropriate, illegal, scam, and plausible, websites and words
 
-I (OrdinaryJellyfish) hadn't been able to find a useful open filter anywhere that holds websites and words that are inappropriate for use in most places, so I decided to build my own list out of websites I've seen that I know are bad, and some words too.  
+We hadn't been able to find a useful open filter anywhere that holds websites and words that are inappropriate for use in most places, so we decided to build our own list out of websites We've seen that we know are bad, and some words too.  
 
 These lists are free to use with no credit required. Feel free to open a PR adding anything you think may be missing, or if you find a website or word that's not actually inappropriate, you can open a PR to remove that too.
 
@@ -16,7 +16,7 @@ A small list of biggest projects using inappropriate-content API:
 To add a word to the list, simply create a file inside the words called the name of the word (for example, `words/foo` for the word `foo`). You can also add phrases, to do so just replace the spaces with underscores.  
 
 If you are adding a website, add a file with the full domain name inside the websites folder and mark it as one of the [these categories](#website-categories) by putting the category name inside the file as JSON with the key `category`. You'll also need to add an optional but recommended explanation of the site with the key `description` (if you find a site with no description, feel free to add one).  
-Afterwards, you can open a PR to add it and I will review and merge.
+Afterwards, you can open a PR to add it and we will review and merge.
 
 ## Using the list
 
