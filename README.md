@@ -63,5 +63,7 @@ Words will be sorted in an array as strings.
   - Any illegal content that does not match any other categories.
 - `inappropriate`
   - Any inappropriate content that does not match any other categories.
+- `proxy`
+  - Websites that provide online proxies. Mirrors are not counted!
 - `plausible`
   - Any website that may not necessarily be inappropriate, but may need to be blocked in some cases.
